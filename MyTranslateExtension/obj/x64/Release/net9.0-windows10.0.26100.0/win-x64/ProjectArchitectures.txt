@@ -1,1 +1,0 @@
-D:\Work\Temp\MyExt\MyTranslateExtension\MyTranslateExtension\MyTranslateExtension.csproj;x64
