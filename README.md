@@ -1,5 +1,7 @@
 ## Oishii Translate
 
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
+
 **Oishii Translate** is a Microsoft PowerToys Command Palette extension based on the [TranslateCmdPal](https://github.com/patcher454/TranslateCmdPal) repository. It extends functionality by supporting more translation providers, including Google Translate, Bing Translate, Microsoft Azure Translate, and Yandex Translate. The DeepL translator is retained from the original repository and requires API keys, while other providers do not.
 
 ![Japanese Translate Demo](./res/japanese-demo.png)
