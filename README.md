@@ -1,8 +1,21 @@
-## MyTranslator
+## Oishii Translate
 
-**MyTranslator** is a Microsoft PowerToys Command Palette extension based on the [TranslateCmdPal](https://github.com/patcher454/TranslateCmdPal) repository. It extends functionality by supporting more translation providers, including Google Translate, Bing Translate, Microsoft Azure Translate, and Yandex Translate. The DeepL translator is retained from the original repository and requires API keys, while other providers do not.
+**Oishii Translate** is a Microsoft PowerToys Command Palette extension based on the [TranslateCmdPal](https://github.com/patcher454/TranslateCmdPal) repository. It extends functionality by supporting more translation providers, including Google Translate, Bing Translate, Microsoft Azure Translate, and Yandex Translate. The DeepL translator is retained from the original repository and requires API keys, while other providers do not.
 
-### Features
+![Japanese Translate Demo](./res/japanese-demo.png)
+
+### 📥 Installation
+This project is a .NET UWP app with command palette integration. While it is not published on the Microsoft Store and does not have official releases, you can download and build a repo for personal use.
+
+### 🛠️ Usage
+You can request translations using the following format:
+```
+[provider] [language] query
+```
+
+Where `[provider]` is one of the five provider codes listed above.
+
+### 🚀 Features
 - **Multiple Translation Providers:** Supports five translation providers:
   - `google`
   - `yandex`
@@ -44,21 +57,19 @@
   - Ukrainian (UK)
   - Chinese (ZH)
 
-### Configurability
+### 📸 Gallery
+![French Yandex translate Demo](./res/yandex-french.png)
+![Default language Demo](./res/default-language.png)
+![Configuration sample](./res/settings.png)
+
+### ⚙️ Configurability
 - **Customizable Providers:** Choose which translation providers to enable.
 - **Default Target Language:** Set a default language for faster results.
 - **Adjustable Timeout Settings:** Configure the search timeout for queries.
 - **DeepL API Key Setup:** Enter your DeepL API key for enhanced functionality.
 
-### Installation
-This project is a .NET UWP app with command palette integration. While it is not published on the Microsoft Store and does not have official releases, you can download and build it for personal use.
 
-### Usage
-You can request translations using the following format:
-```
-[provider] [language] query
-```
-
-Where `[provider]` is one of the five provider codes listed above.
+### 📄 License
+This repo is licensed under [MIT license](LICENSE).
 
 Feel free to contribute or use this project as needed!
