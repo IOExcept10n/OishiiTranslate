@@ -7,7 +7,9 @@
 ![Japanese Translate Demo](./res/japanese-demo.png)
 
 ### 📥 Installation
-This project is a .NET UWP app with command palette integration. While it is not published on the Microsoft Store and does not have official releases, you can download and build a repo for personal use.
+This project is a .NET UWP app with command palette integration. While it is not published on the Microsoft Store and does not have official production releases, you can download and build a repo for personal use.
+
+Also you can download a preview build on [releases page](https://github.com/IOExcept10n/OishiiTranslate/releases).
 
 ### 🛠️ Usage
 You can request translations using the following format:
